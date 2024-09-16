@@ -4,7 +4,7 @@ import numpy as np #array operations
 import seaborn as sns #advanced visualization
 
 #importing the dataset using absolute path
-titanic_df = pd.read_csv('/home/anand/Desktop/EDA/TitanicAnalysis/train.csv')
+titanic_df = pd.read_csv('train.csv')
 
 #print(titanic_df.head()) #gets the first 5 data from the file
 
